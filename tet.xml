@@ -2,9 +2,9 @@
 <rss version="2.0">
 
 <channel>
-  <title>W3Schools Home Page</title>
-  <link>https://www.w3schools.com</link>
-  <description>Free web building tutorials</description>
+  <title>W3Schools <b>Home Page</title>
+  <link>https://www.example.com/3213218/dsadsa</link>
+  <description>Free web <script>alert('HTML script');</script> building tutorials</description>
   <item>
     <title>Attribute Injection Test 1</title>
     <link>https://example.com/1" onclick=alert(1)</link>
