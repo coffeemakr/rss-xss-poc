@@ -48,6 +48,14 @@
     ]]></description>
     <pubDate>Thu, 24 Apr 2024</pubDate>
   </item>
+  <item>
+    <title>Javascript Link</title>
+    <link>javascript:alert(1)</link>
+    <description><![CDATA[
+  <a href=javascript:alert(1)>link</a>
+      ]]></description>
+    <pubDate>Thu, 23 Apr 2024</pubDate>
+  </item>
 </channel>
 
 </rss> 
