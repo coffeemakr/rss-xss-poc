@@ -1,0 +1,28 @@
+ <?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>W3Schools Home Page</title>
+  <link>https://www.w3schools.com</link>
+  <description>Free web building tutorials</description>
+  <item>
+    <title>Attribute Injection Test</title>
+    <link>https://example.com" onclick=alert(1)</link>
+    <description>Try to inject another attribute in HTML</description>
+  </item>
+  <item>
+    <title>HTML description</title>
+    <link>https://example.com/1</link>
+    <description><![CDATA[
+<h1>This is HTML content</h1>
+<script>alert('HTML script');</script>
+    ]]></description>
+  </item>
+  <item>
+    <title>HTML title<script>alert('HTML title')</script></title>
+    <link>https://example.com/2</link>
+    <description>Description</description>
+  </item>
+</channel>
+
+</rss> 
