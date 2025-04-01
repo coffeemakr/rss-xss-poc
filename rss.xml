@@ -6,31 +6,36 @@
   <link>https://www.w3schools.com</link>
   <description>Free web building tutorials</description>
   <item>
-    <title>Attribute Injection Test</title>
+    <title>Attribute Injection Test 1</title>
     <link>https://example.com" onclick=alert(1)</link>
     <description>Try to inject another attribute in HTML</description>
   </item>
   <item>
-    <title>HTML description</title>
+    <title>HTML description 2</title>
     <link>https://example.com/1</link>
     <description><![CDATA[
 <h1>This is HTML content</h1>
 <script>alert('HTML script');</script>
-
+<s>s</s> <b>b</b> 
 <scr<script>ipt>alert('HTML script');</scri<script>pt>
 &lt;script>alert('HTML script');&lt;script>
 &lt;script&gt;alert('HTML script');&lt;script&gt;
     ]]></description>
+   <pubDate>Thu, 27 Apr 2024</pubDate>
   </item>
   <item>
-    <title>HTML title<script>alert('HTML title')</script></title>
+    <title>HTML title<script>alert('HTML title')</script> 3</title>
     <link>https://example.com/2</link>
     <description>Description</description>
+   <pubDate>Thu, 26 Apr 2024</pubDate>
+
   </item>
   <item>
-    <title>HTML title<s>s</s> <b>b</b></title>
+    <title>HTML title<s>s</s> <b>b</b> 4</title>
     <link>https://example.com/3</link>
-    <description>Description</description>
+    <description>Description</description
+    <pubDate>Thu, 25 Apr 2024</pubDate>
+
   </item>
   <item>
     <title>HTML img description</title>
@@ -41,6 +46,7 @@
 <img src="https://example.com" onerror=alert(3213) />
 
     ]]></description>
+    <pubDate>Thu, 24 Apr 2024</pubDate>
   </item>
 </channel>
 
